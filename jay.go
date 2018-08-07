@@ -10,14 +10,14 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/blue-jay/core/env"
-	"github.com/blue-jay/core/file"
-	"github.com/blue-jay/core/find"
-	"github.com/blue-jay/core/generate"
-	"github.com/blue-jay/core/jsonconfig"
-	"github.com/blue-jay/core/replace"
-	"github.com/blue-jay/core/storage"
-	mysqlMigration "github.com/blue-jay/core/storage/migration/mysql"
+	"github.com/blue-jay-fork/core/env"
+	"github.com/blue-jay-fork/core/file"
+	"github.com/blue-jay-fork/core/find"
+	"github.com/blue-jay-fork/core/generate"
+	"github.com/blue-jay-fork/core/jsonconfig"
+	"github.com/blue-jay-fork/core/replace"
+	"github.com/blue-jay-fork/core/storage"
+	mysqlMigration "github.com/blue-jay-fork/core/storage/migration/mysql"
 
 	"gopkg.in/alecthomas/kingpin.v2"
 )
